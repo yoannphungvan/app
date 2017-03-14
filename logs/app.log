@@ -1,0 +1,453 @@
+[2017-03-14 02:48:34] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"79989056758c75a01d30a2"}
+[2017-03-14 02:48:34] app.INFO: > POST /api/user [] {"logsessionid":"79989056758c75a01d30a2"}
+[2017-03-14 02:48:34] app.CRITICAL: Exception: Could not create resource (uncaught exception) at /vagrant_data/src/be/services/shared/repositories/MySQLRepository.php line 153 {"exception":"[object] (Exception(code: 400): Could not create resource at /vagrant_data/src/be/services/shared/repositories/MySQLRepository.php:153)"} {"logsessionid":"79989056758c75a01d30a2"}
+[2017-03-14 02:48:34] app.INFO: < 500 [] {"logsessionid":"79989056758c75a01d30a2"}
+[2017-03-14 02:48:41] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"68841098358c75a091f53a"}
+[2017-03-14 02:48:41] app.INFO: > POST /api/user [] {"logsessionid":"68841098358c75a091f53a"}
+[2017-03-14 02:48:52] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"17807875558c75a13e6616"}
+[2017-03-14 02:48:52] app.INFO: > POST /api/user [] {"logsessionid":"17807875558c75a13e6616"}
+[2017-03-14 02:49:31] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"71916902458c75a3b47d20"}
+[2017-03-14 02:49:31] app.INFO: > POST /api/user [] {"logsessionid":"71916902458c75a3b47d20"}
+[2017-03-14 02:52:35] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"185615401558c75af374bf6"}
+[2017-03-14 02:52:35] app.INFO: > POST /api/user [] {"logsessionid":"185615401558c75af374bf6"}
+[2017-03-14 02:52:35] app.INFO: < 200 [] {"logsessionid":"185615401558c75af374bf6"}
+[2017-03-14 02:53:08] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"145014613658c75b1404dea"}
+[2017-03-14 02:53:08] app.INFO: > POST /api/user [] {"logsessionid":"145014613658c75b1404dea"}
+[2017-03-14 02:53:08] app.INFO: < 200 [] {"logsessionid":"145014613658c75b1404dea"}
+[2017-03-14 02:54:59] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"188798545258c75b82d49a7"}
+[2017-03-14 02:54:59] app.INFO: > POST /api/user [] {"logsessionid":"188798545258c75b82d49a7"}
+[2017-03-14 02:54:59] app.INFO: < 200 [] {"logsessionid":"188798545258c75b82d49a7"}
+[2017-03-14 02:55:04] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"94248071458c75b887c86b"}
+[2017-03-14 02:55:04] app.INFO: > GET /api/user [] {"logsessionid":"94248071458c75b887c86b"}
+[2017-03-14 02:55:04] app.INFO: < 200 [] {"logsessionid":"94248071458c75b887c86b"}
+[2017-03-14 02:56:06] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"5819194858c75bc5d98ee"}
+[2017-03-14 02:56:06] app.INFO: > GET /api/user [] {"logsessionid":"5819194858c75bc5d98ee"}
+[2017-03-14 02:56:06] app.INFO: < 200 [] {"logsessionid":"5819194858c75bc5d98ee"}
+[2017-03-14 02:56:17] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"131909857258c75bd146270"}
+[2017-03-14 02:56:17] app.INFO: > GET /api/user [] {"logsessionid":"131909857258c75bd146270"}
+[2017-03-14 02:56:17] app.INFO: < 200 [] {"logsessionid":"131909857258c75bd146270"}
+[2017-03-14 02:56:27] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?fields=firstname%2Cid&id=1"} {"logsessionid":"183613150358c75bdaef5f4"}
+[2017-03-14 02:56:27] app.INFO: > GET /api/user?id=1&fields=firstname,id [] {"logsessionid":"183613150358c75bdaef5f4"}
+[2017-03-14 02:56:34] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?fields=firstName%2Cid&id=1"} {"logsessionid":"159431686058c75be228576"}
+[2017-03-14 02:56:34] app.INFO: > GET /api/user?id=1&fields=firstName,id [] {"logsessionid":"159431686058c75be228576"}
+[2017-03-14 02:56:40] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?fields=firstName%2Cid&id=1"} {"logsessionid":"116865473958c75be8396c3"}
+[2017-03-14 02:56:40] app.INFO: > GET /api/user?id=1&fields=firstName,id [] {"logsessionid":"116865473958c75be8396c3"}
+[2017-03-14 02:56:40] app.INFO: < 200 [] {"logsessionid":"116865473958c75be8396c3"}
+[2017-03-14 03:00:44] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?fields=firstName%2Cid&id=1"} {"logsessionid":"197789900758c75cdcb0db8"}
+[2017-03-14 03:00:44] app.INFO: > GET /api/user?id=1&fields=firstName,id [] {"logsessionid":"197789900758c75cdcb0db8"}
+[2017-03-14 03:00:44] app.INFO: < 200 [] {"logsessionid":"197789900758c75cdcb0db8"}
+[2017-03-14 03:00:50] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"49342405758c75ce2cd158"}
+[2017-03-14 03:00:50] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"49342405758c75ce2cd158"}
+[2017-03-14 03:02:06] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"19086521758c75d2e7f0c5"}
+[2017-03-14 03:02:06] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"19086521758c75d2e7f0c5"}
+[2017-03-14 03:02:23] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"167512697358c75d3fb0bf3"}
+[2017-03-14 03:02:23] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"167512697358c75d3fb0bf3"}
+[2017-03-14 03:02:23] app.INFO: < 200 [] {"logsessionid":"167512697358c75d3fb0bf3"}
+[2017-03-14 03:11:53] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"25500264558c75f793e55a"}
+[2017-03-14 03:11:53] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"25500264558c75f793e55a"}
+[2017-03-14 03:11:53] app.INFO: < 200 [] {"logsessionid":"25500264558c75f793e55a"}
+[2017-03-14 03:11:55] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"207907032258c75f7b51142"}
+[2017-03-14 03:11:55] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"207907032258c75f7b51142"}
+[2017-03-14 03:11:55] app.INFO: < 200 [] {"logsessionid":"207907032258c75f7b51142"}
+[2017-03-14 03:12:58] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user?id=1"} {"logsessionid":"17086504158c75fba242b1"}
+[2017-03-14 03:12:58] app.INFO: > GET /api/user?id=1 [] {"logsessionid":"17086504158c75fba242b1"}
+[2017-03-14 03:12:58] app.INFO: < 200 [] {"logsessionid":"17086504158c75fba242b1"}
+[2017-03-14 03:13:01] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"111797652058c75fbd59f0d"}
+[2017-03-14 03:13:01] app.INFO: > GET /api/user [] {"logsessionid":"111797652058c75fbd59f0d"}
+[2017-03-14 03:13:01] app.INFO: < 200 [] {"logsessionid":"111797652058c75fbd59f0d"}
+[2017-03-14 03:13:16] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"12527714458c75fcc77680"}
+[2017-03-14 03:13:16] app.INFO: > POST /api/user [] {"logsessionid":"12527714458c75fcc77680"}
+[2017-03-14 03:13:16] app.INFO: < 200 [] {"logsessionid":"12527714458c75fcc77680"}
+[2017-03-14 03:15:48] app.INFO: Matched route "user_put". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::put","id":"1","_route":"user_put"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"70256422258c760647a656"}
+[2017-03-14 03:15:48] app.INFO: > PUT /api/user/1 [] {"logsessionid":"70256422258c760647a656"}
+[2017-03-14 03:15:48] app.INFO: < 200 [] {"logsessionid":"70256422258c760647a656"}
+[2017-03-14 03:16:01] app.INFO: Matched route "user_put". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::put","id":"1","_route":"user_put"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"68481582458c7607122760"}
+[2017-03-14 03:16:01] app.INFO: > PUT /api/user/1 [] {"logsessionid":"68481582458c7607122760"}
+[2017-03-14 03:16:01] app.INFO: < 200 [] {"logsessionid":"68481582458c7607122760"}
+[2017-03-14 03:16:06] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"182216872658c7607619f3b"}
+[2017-03-14 03:16:06] app.INFO: > GET /api/user/1 [] {"logsessionid":"182216872658c7607619f3b"}
+[2017-03-14 03:16:06] app.INFO: < 200 [] {"logsessionid":"182216872658c7607619f3b"}
+[2017-03-14 03:16:13] app.INFO: Matched route "user_delete". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::delete","id":"1","_route":"user_delete"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"96624289458c7607d949bb"}
+[2017-03-14 03:16:13] app.INFO: > DELETE /api/user/1 [] {"logsessionid":"96624289458c7607d949bb"}
+[2017-03-14 03:16:13] app.INFO: < 200 [] {"logsessionid":"96624289458c7607d949bb"}
+[2017-03-14 03:16:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"153808350258c7608611c8e"}
+[2017-03-14 03:16:22] app.INFO: > GET /api/user/1 [] {"logsessionid":"153808350258c7608611c8e"}
+[2017-03-14 03:16:22] app.INFO: < 200 [] {"logsessionid":"153808350258c7608611c8e"}
+[2017-03-14 03:16:29] app.INFO: Matched route "user_delete". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::delete","id":"1","_route":"user_delete"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"71669083558c7608dc3a11"}
+[2017-03-14 03:16:29] app.INFO: > DELETE /api/user/1 [] {"logsessionid":"71669083558c7608dc3a11"}
+[2017-03-14 03:16:29] app.INFO: < 200 [] {"logsessionid":"71669083558c7608dc3a11"}
+[2017-03-14 03:16:36] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"60632279958c7609479a3c"}
+[2017-03-14 03:16:36] app.INFO: > GET /api/user/1 [] {"logsessionid":"60632279958c7609479a3c"}
+[2017-03-14 03:16:36] app.INFO: < 200 [] {"logsessionid":"60632279958c7609479a3c"}
+[2017-03-14 03:17:37] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"155093229658c760d180892"}
+[2017-03-14 03:17:37] app.INFO: > GET /api/user/1 [] {"logsessionid":"155093229658c760d180892"}
+[2017-03-14 03:17:37] app.INFO: < 200 [] {"logsessionid":"155093229658c760d180892"}
+[2017-03-14 03:17:42] app.INFO: Matched route "user_delete". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::delete","id":"1","_route":"user_delete"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"196364442458c760d5db672"}
+[2017-03-14 03:17:42] app.INFO: > DELETE /api/user/1 [] {"logsessionid":"196364442458c760d5db672"}
+[2017-03-14 03:17:42] app.INFO: < 200 [] {"logsessionid":"196364442458c760d5db672"}
+[2017-03-14 03:18:14] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"106620318058c760f66bcfa"}
+[2017-03-14 03:18:14] app.INFO: > GET /api/user/1 [] {"logsessionid":"106620318058c760f66bcfa"}
+[2017-03-14 03:18:14] app.INFO: < 200 [] {"logsessionid":"106620318058c760f66bcfa"}
+[2017-03-14 03:18:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"23085391158c760fec4dd3"}
+[2017-03-14 03:18:22] app.INFO: > GET /api/user/1 [] {"logsessionid":"23085391158c760fec4dd3"}
+[2017-03-14 03:18:23] app.INFO: < 200 [] {"logsessionid":"23085391158c760fec4dd3"}
+[2017-03-14 04:21:55] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"147421356358c76fe374d42"}
+[2017-03-14 04:21:55] app.INFO: > GET /api/user/1 [] {"logsessionid":"147421356358c76fe374d42"}
+[2017-03-14 04:21:55] app.CRITICAL: InvalidArgumentException: Identifier "PROJECT\Bundles\Services\User" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"PROJECT\\Bundles\\Services\\User\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"147421356358c76fe374d42"}
+[2017-03-14 04:21:55] app.INFO: < 500 [] {"logsessionid":"147421356358c76fe374d42"}
+[2017-03-14 04:36:18] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"52341469658c773423e7ca"}
+[2017-03-14 04:36:18] app.INFO: > GET /api/user/1 [] {"logsessionid":"52341469658c773423e7ca"}
+[2017-03-14 04:36:18] app.CRITICAL: InvalidArgumentException: Identifier "PROJECT\Bundles\Services\User" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"PROJECT\\Bundles\\Services\\User\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"52341469658c773423e7ca"}
+[2017-03-14 04:36:18] app.INFO: < 500 [] {"logsessionid":"52341469658c773423e7ca"}
+[2017-03-14 04:37:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"65743065158c77382b26f9"}
+[2017-03-14 04:37:22] app.INFO: > GET /api/user/1 [] {"logsessionid":"65743065158c77382b26f9"}
+[2017-03-14 04:37:22] app.CRITICAL: InvalidArgumentException: Identifier "PROJECT\Bundles\Services\User" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"PROJECT\\Bundles\\Services\\User\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"65743065158c77382b26f9"}
+[2017-03-14 04:37:22] app.INFO: < 500 [] {"logsessionid":"65743065158c77382b26f9"}
+[2017-03-14 04:48:57] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"71539295658c77639a125b"}
+[2017-03-14 04:48:57] app.INFO: > GET /api/user/1 [] {"logsessionid":"71539295658c77639a125b"}
+[2017-03-14 04:48:57] app.CRITICAL: InvalidArgumentException: Identifier "PROJECT\Bundles\Services\User" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"PROJECT\\Bundles\\Services\\User\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"71539295658c77639a125b"}
+[2017-03-14 04:48:57] app.INFO: < 500 [] {"logsessionid":"71539295658c77639a125b"}
+[2017-03-14 04:49:19] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"15582063158c7764fd030a"}
+[2017-03-14 04:49:19] app.INFO: > GET /api/user/1 [] {"logsessionid":"15582063158c7764fd030a"}
+[2017-03-14 04:49:19] app.CRITICAL: InvalidArgumentException: Identifier "" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"15582063158c7764fd030a"}
+[2017-03-14 04:49:20] app.INFO: < 500 [] {"logsessionid":"15582063158c7764fd030a"}
+[2017-03-14 04:55:52] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"48408792158c777d7e1816"}
+[2017-03-14 04:55:52] app.INFO: > GET /api/user/1 [] {"logsessionid":"48408792158c777d7e1816"}
+[2017-03-14 04:55:52] app.CRITICAL: InvalidArgumentException: Identifier "projectbundlesservicesuser" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"projectbundlesservicesuser\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"48408792158c777d7e1816"}
+[2017-03-14 04:55:52] app.INFO: < 500 [] {"logsessionid":"48408792158c777d7e1816"}
+[2017-03-14 04:57:01] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"168916428258c7781d02c51"}
+[2017-03-14 04:57:01] app.INFO: > GET /api/user/1 [] {"logsessionid":"168916428258c7781d02c51"}
+[2017-03-14 04:57:01] app.CRITICAL: InvalidArgumentException: Identifier "projectbundlesservicesuser" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"projectbundlesservicesuser\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"168916428258c7781d02c51"}
+[2017-03-14 04:57:01] app.INFO: < 500 [] {"logsessionid":"168916428258c7781d02c51"}
+[2017-03-14 04:57:33] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"70980171358c7783db7bd9"}
+[2017-03-14 04:57:33] app.INFO: > GET /api/user/1 [] {"logsessionid":"70980171358c7783db7bd9"}
+[2017-03-14 04:57:33] app.CRITICAL: InvalidArgumentException: Identifier "projectbundlesservicesuser" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"projectbundlesservicesuser\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"70980171358c7783db7bd9"}
+[2017-03-14 04:57:33] app.INFO: < 500 [] {"logsessionid":"70980171358c7783db7bd9"}
+[2017-03-14 04:57:49] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"190972251058c7784d780eb"}
+[2017-03-14 04:57:49] app.INFO: > GET /api/user/1 [] {"logsessionid":"190972251058c7784d780eb"}
+[2017-03-14 04:57:49] app.CRITICAL: InvalidArgumentException: Identifier "projectbundlesservicesuser" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"projectbundlesservicesuser\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"190972251058c7784d780eb"}
+[2017-03-14 04:57:49] app.INFO: < 500 [] {"logsessionid":"190972251058c7784d780eb"}
+[2017-03-14 04:59:07] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"10762956058c7789b4ed70"}
+[2017-03-14 04:59:07] app.INFO: > GET /api/user/1 [] {"logsessionid":"10762956058c7789b4ed70"}
+[2017-03-14 04:59:07] app.CRITICAL: InvalidArgumentException: Identifier "projectbundlesservicesuser" is not defined. (uncaught exception) at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php line 78 {"exception":"[object] (InvalidArgumentException(code: 0): Identifier \"projectbundlesservicesuser\" is not defined. at /vagrant_data/vendor/be/pimple/pimple/lib/Pimple.php:78)"} {"logsessionid":"10762956058c7789b4ed70"}
+[2017-03-14 04:59:07] app.INFO: < 500 [] {"logsessionid":"10762956058c7789b4ed70"}
+[2017-03-14 05:03:21] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"1","_route":"user_get"},"request_uri":"http://services.com/api/user/1"} {"logsessionid":"58329760158c77998c94e0"}
+[2017-03-14 05:03:21] app.INFO: > GET /api/user/1 [] {"logsessionid":"58329760158c77998c94e0"}
+[2017-03-14 05:03:21] app.INFO: < 200 [] {"logsessionid":"58329760158c77998c94e0"}
+[2017-03-14 05:03:23] app.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /api/user/" (uncaught exception) at /vagrant_data/vendor/be/symfony/http-kernel/EventListener/RouterListener.php line 123 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /api/user/\" at /vagrant_data/vendor/be/symfony/http-kernel/EventListener/RouterListener.php:123, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0): No routes found for \"/api/user/\". at /vagrant_data/vendor/be/symfony/routing/Matcher/UrlMatcher.php:98)"} {"logsessionid":"23940637358c7799b959c6"}
+[2017-03-14 05:03:23] app.INFO: < 404 [] {"logsessionid":"23940637358c7799b959c6"}
+[2017-03-14 05:03:26] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"200425283658c7799de9eb9"}
+[2017-03-14 05:03:26] app.INFO: > GET /api/user [] {"logsessionid":"200425283658c7799de9eb9"}
+[2017-03-14 05:03:26] app.INFO: < 200 [] {"logsessionid":"200425283658c7799de9eb9"}
+[2017-03-14 05:03:36] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"54301078358c779a869497"}
+[2017-03-14 05:03:36] app.INFO: > GET /api/user [] {"logsessionid":"54301078358c779a869497"}
+[2017-03-14 05:03:36] app.INFO: < 200 [] {"logsessionid":"54301078358c779a869497"}
+[2017-03-14 05:03:53] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"70859903758c779b9c1d10"}
+[2017-03-14 05:03:53] app.INFO: > POST /api/user [] {"logsessionid":"70859903758c779b9c1d10"}
+[2017-03-14 05:03:53] app.INFO: < 200 [] {"logsessionid":"70859903758c779b9c1d10"}
+[2017-03-14 05:04:10] app.INFO: Matched route "user_get_list". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::getList","_route":"user_get_list"},"request_uri":"http://services.com/api/user"} {"logsessionid":"128519787058c779caa4d7c"}
+[2017-03-14 05:04:10] app.INFO: > GET /api/user [] {"logsessionid":"128519787058c779caa4d7c"}
+[2017-03-14 05:04:10] app.INFO: < 200 [] {"logsessionid":"128519787058c779caa4d7c"}
+[2017-03-14 05:04:28] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"95355855858c779dc5ef2e"}
+[2017-03-14 05:04:28] app.INFO: > POST /api/user [] {"logsessionid":"95355855858c779dc5ef2e"}
+[2017-03-14 05:04:28] app.INFO: < 200 [] {"logsessionid":"95355855858c779dc5ef2e"}
+[2017-03-14 05:09:10] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"207753062958c77af6c8c12"}
+[2017-03-14 05:09:10] app.INFO: > POST /api/user [] {"logsessionid":"207753062958c77af6c8c12"}
+[2017-03-14 05:09:45] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"123944972758c77b18e570f"}
+[2017-03-14 05:09:45] app.INFO: > POST /api/user [] {"logsessionid":"123944972758c77b18e570f"}
+[2017-03-14 05:10:11] app.INFO: Matched route "user_post". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::post","_route":"user_post"},"request_uri":"http://services.com/api/user"} {"logsessionid":"58438712558c77b33ca960"}
+[2017-03-14 05:10:11] app.INFO: > POST /api/user [] {"logsessionid":"58438712558c77b33ca960"}
+[2017-03-14 05:10:11] app.INFO: < 200 [] {"logsessionid":"58438712558c77b33ca960"}
+[2017-03-14 05:10:38] app.INFO: Matched route "user_put". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::put","id":"13","_route":"user_put"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"179481674558c77b4e39635"}
+[2017-03-14 05:10:38] app.INFO: > PUT /api/user/13 [] {"logsessionid":"179481674558c77b4e39635"}
+[2017-03-14 05:10:38] app.INFO: < 200 [] {"logsessionid":"179481674558c77b4e39635"}
+[2017-03-14 05:14:49] app.INFO: Matched route "user_put". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::put","id":"13","_route":"user_put"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"9092258158c77c49babe2"}
+[2017-03-14 05:14:49] app.INFO: > PUT /api/user/13 [] {"logsessionid":"9092258158c77c49babe2"}
+[2017-03-14 05:14:49] app.INFO: < 200 [] {"logsessionid":"9092258158c77c49babe2"}
+[2017-03-14 05:17:33] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"167264628358c77cedaaa92"}
+[2017-03-14 05:17:33] app.INFO: > GET /api/user/13 [] {"logsessionid":"167264628358c77cedaaa92"}
+[2017-03-14 05:18:01] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"3195308258c77d092e0db"}
+[2017-03-14 05:18:01] app.INFO: > GET /api/user/13 [] {"logsessionid":"3195308258c77d092e0db"}
+[2017-03-14 05:20:02] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"84253165658c77d822c925"}
+[2017-03-14 05:20:02] app.INFO: > GET /api/user/13 [] {"logsessionid":"84253165658c77d822c925"}
+[2017-03-14 05:20:45] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"93325439858c77daccdaea"}
+[2017-03-14 05:20:45] app.INFO: > GET /api/user/13 [] {"logsessionid":"93325439858c77daccdaea"}
+[2017-03-14 05:20:57] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"134423098158c77db970a1c"}
+[2017-03-14 05:20:57] app.INFO: > GET /api/user/13 [] {"logsessionid":"134423098158c77db970a1c"}
+[2017-03-14 05:21:34] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"164045518558c77dde9e6c5"}
+[2017-03-14 05:21:34] app.INFO: > GET /api/user/13 [] {"logsessionid":"164045518558c77dde9e6c5"}
+[2017-03-14 05:21:48] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"142960374858c77dec93953"}
+[2017-03-14 05:21:48] app.INFO: > GET /api/user/13 [] {"logsessionid":"142960374858c77dec93953"}
+[2017-03-14 05:23:07] app.INFO: Matched route "home". {"route_parameters":{"_controller":"PROJECT\\Controllers\\DefaultController::renderPage","template":"home","_route":"home"},"request_uri":"http://services.com/"} {"logsessionid":"144759328958c77e3bb83f6"}
+[2017-03-14 05:23:08] app.INFO: > GET / [] {"logsessionid":"144759328958c77e3bb83f6"}
+[2017-03-14 05:23:08] app.INFO: < 200 [] {"logsessionid":"144759328958c77e3bb83f6"}
+[2017-03-14 05:37:20] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"99832428758c781904e25e"}
+[2017-03-14 05:37:20] app.INFO: > GET /api/user/13 [] {"logsessionid":"99832428758c781904e25e"}
+[2017-03-14 05:37:20] app.INFO: < 200 [] {"logsessionid":"99832428758c781904e25e"}
+[2017-03-14 05:37:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"206387430258c78192c8cc9"}
+[2017-03-14 05:37:22] app.INFO: > GET /api/user/13 [] {"logsessionid":"206387430258c78192c8cc9"}
+[2017-03-14 05:37:22] app.INFO: < 200 [] {"logsessionid":"206387430258c78192c8cc9"}
+[2017-03-14 05:37:26] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"31872674158c78195e0d63"}
+[2017-03-14 05:37:26] app.INFO: > GET /api/user/13 [] {"logsessionid":"31872674158c78195e0d63"}
+[2017-03-14 05:37:26] app.INFO: < 200 [] {"logsessionid":"31872674158c78195e0d63"}
+[2017-03-14 05:37:26] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"19082205958c78196bfa3a"}
+[2017-03-14 05:37:26] app.INFO: > GET /api/user/13 [] {"logsessionid":"19082205958c78196bfa3a"}
+[2017-03-14 05:37:26] app.INFO: < 200 [] {"logsessionid":"19082205958c78196bfa3a"}
+[2017-03-14 05:37:27] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"42742052458c78197886c2"}
+[2017-03-14 05:37:27] app.INFO: > GET /api/user/13 [] {"logsessionid":"42742052458c78197886c2"}
+[2017-03-14 05:37:27] app.INFO: < 200 [] {"logsessionid":"42742052458c78197886c2"}
+[2017-03-14 05:37:28] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"161434877258c781983b4ec"}
+[2017-03-14 05:37:28] app.INFO: > GET /api/user/13 [] {"logsessionid":"161434877258c781983b4ec"}
+[2017-03-14 05:37:28] app.INFO: < 200 [] {"logsessionid":"161434877258c781983b4ec"}
+[2017-03-14 05:37:29] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"188149493658c78198ecd82"}
+[2017-03-14 05:37:29] app.INFO: > GET /api/user/13 [] {"logsessionid":"188149493658c78198ecd82"}
+[2017-03-14 05:37:29] app.INFO: < 200 [] {"logsessionid":"188149493658c78198ecd82"}
+[2017-03-14 05:37:29] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"118172558258c781998ac3e"}
+[2017-03-14 05:37:29] app.INFO: > GET /api/user/13 [] {"logsessionid":"118172558258c781998ac3e"}
+[2017-03-14 05:37:29] app.INFO: < 200 [] {"logsessionid":"118172558258c781998ac3e"}
+[2017-03-14 05:37:30] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"188624380958c7819a1eeb2"}
+[2017-03-14 05:37:30] app.INFO: > GET /api/user/13 [] {"logsessionid":"188624380958c7819a1eeb2"}
+[2017-03-14 05:37:30] app.INFO: < 200 [] {"logsessionid":"188624380958c7819a1eeb2"}
+[2017-03-14 05:37:30] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"50427729058c7819a9e9b8"}
+[2017-03-14 05:37:30] app.INFO: > GET /api/user/13 [] {"logsessionid":"50427729058c7819a9e9b8"}
+[2017-03-14 05:37:30] app.INFO: < 200 [] {"logsessionid":"50427729058c7819a9e9b8"}
+[2017-03-14 05:37:31] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"154719120958c7819b1e09f"}
+[2017-03-14 05:37:31] app.INFO: > GET /api/user/13 [] {"logsessionid":"154719120958c7819b1e09f"}
+[2017-03-14 05:37:31] app.INFO: < 200 [] {"logsessionid":"154719120958c7819b1e09f"}
+[2017-03-14 05:37:31] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"37541760058c7819b7bbaa"}
+[2017-03-14 05:37:31] app.INFO: > GET /api/user/13 [] {"logsessionid":"37541760058c7819b7bbaa"}
+[2017-03-14 05:37:31] app.INFO: < 200 [] {"logsessionid":"37541760058c7819b7bbaa"}
+[2017-03-14 05:37:31] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"143871289058c7819bde99a"}
+[2017-03-14 05:37:31] app.INFO: > GET /api/user/13 [] {"logsessionid":"143871289058c7819bde99a"}
+[2017-03-14 05:37:31] app.INFO: < 200 [] {"logsessionid":"143871289058c7819bde99a"}
+[2017-03-14 05:37:32] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"27090535358c7819c4ee4e"}
+[2017-03-14 05:37:32] app.INFO: > GET /api/user/13 [] {"logsessionid":"27090535358c7819c4ee4e"}
+[2017-03-14 05:37:32] app.INFO: < 200 [] {"logsessionid":"27090535358c7819c4ee4e"}
+[2017-03-14 05:37:32] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"181752705858c7819caa65a"}
+[2017-03-14 05:37:32] app.INFO: > GET /api/user/13 [] {"logsessionid":"181752705858c7819caa65a"}
+[2017-03-14 05:37:32] app.INFO: < 200 [] {"logsessionid":"181752705858c7819caa65a"}
+[2017-03-14 05:37:33] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"148404857658c7819d1406e"}
+[2017-03-14 05:37:33] app.INFO: > GET /api/user/13 [] {"logsessionid":"148404857658c7819d1406e"}
+[2017-03-14 05:37:33] app.INFO: < 200 [] {"logsessionid":"148404857658c7819d1406e"}
+[2017-03-14 05:37:33] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"142946470458c7819d68db9"}
+[2017-03-14 05:37:33] app.INFO: > GET /api/user/13 [] {"logsessionid":"142946470458c7819d68db9"}
+[2017-03-14 05:37:33] app.INFO: < 200 [] {"logsessionid":"142946470458c7819d68db9"}
+[2017-03-14 05:37:33] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"172600398358c7819dbd242"}
+[2017-03-14 05:37:33] app.INFO: > GET /api/user/13 [] {"logsessionid":"172600398358c7819dbd242"}
+[2017-03-14 05:37:33] app.INFO: < 200 [] {"logsessionid":"172600398358c7819dbd242"}
+[2017-03-14 05:37:34] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"27562530858c7819e226ca"}
+[2017-03-14 05:37:34] app.INFO: > GET /api/user/13 [] {"logsessionid":"27562530858c7819e226ca"}
+[2017-03-14 05:37:34] app.INFO: < 200 [] {"logsessionid":"27562530858c7819e226ca"}
+[2017-03-14 05:37:34] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"101223840358c7819e78ccb"}
+[2017-03-14 05:37:34] app.INFO: > GET /api/user/13 [] {"logsessionid":"101223840358c7819e78ccb"}
+[2017-03-14 05:37:34] app.INFO: < 200 [] {"logsessionid":"101223840358c7819e78ccb"}
+[2017-03-14 05:37:34] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"190408273858c7819ee7514"}
+[2017-03-14 05:37:35] app.INFO: > GET /api/user/13 [] {"logsessionid":"190408273858c7819ee7514"}
+[2017-03-14 05:37:35] app.INFO: < 200 [] {"logsessionid":"190408273858c7819ee7514"}
+[2017-03-14 05:37:35] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"213177932458c7819f4e1e6"}
+[2017-03-14 05:37:35] app.INFO: > GET /api/user/13 [] {"logsessionid":"213177932458c7819f4e1e6"}
+[2017-03-14 05:37:35] app.INFO: < 200 [] {"logsessionid":"213177932458c7819f4e1e6"}
+[2017-03-14 05:37:35] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"70088625858c7819f9e935"}
+[2017-03-14 05:37:35] app.INFO: > GET /api/user/13 [] {"logsessionid":"70088625858c7819f9e935"}
+[2017-03-14 05:37:35] app.INFO: < 200 [] {"logsessionid":"70088625858c7819f9e935"}
+[2017-03-14 05:37:36] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"143172606358c781a002d4a"}
+[2017-03-14 05:37:36] app.INFO: > GET /api/user/13 [] {"logsessionid":"143172606358c781a002d4a"}
+[2017-03-14 05:37:36] app.INFO: < 200 [] {"logsessionid":"143172606358c781a002d4a"}
+[2017-03-14 05:37:36] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"66911150058c781a051f46"}
+[2017-03-14 05:37:36] app.INFO: > GET /api/user/13 [] {"logsessionid":"66911150058c781a051f46"}
+[2017-03-14 05:37:36] app.INFO: < 200 [] {"logsessionid":"66911150058c781a051f46"}
+[2017-03-14 05:37:36] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"37557133758c781a0a05a3"}
+[2017-03-14 05:37:36] app.INFO: > GET /api/user/13 [] {"logsessionid":"37557133758c781a0a05a3"}
+[2017-03-14 05:37:36] app.INFO: < 200 [] {"logsessionid":"37557133758c781a0a05a3"}
+[2017-03-14 05:37:37] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"35044559658c781a100ac0"}
+[2017-03-14 05:37:37] app.INFO: > GET /api/user/13 [] {"logsessionid":"35044559658c781a100ac0"}
+[2017-03-14 05:37:37] app.INFO: < 200 [] {"logsessionid":"35044559658c781a100ac0"}
+[2017-03-14 05:37:37] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"43135036358c781a15548e"}
+[2017-03-14 05:37:37] app.INFO: > GET /api/user/13 [] {"logsessionid":"43135036358c781a15548e"}
+[2017-03-14 05:37:37] app.INFO: < 200 [] {"logsessionid":"43135036358c781a15548e"}
+[2017-03-14 05:37:37] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"159824865758c781a1ae056"}
+[2017-03-14 05:37:37] app.INFO: > GET /api/user/13 [] {"logsessionid":"159824865758c781a1ae056"}
+[2017-03-14 05:37:37] app.INFO: < 200 [] {"logsessionid":"159824865758c781a1ae056"}
+[2017-03-14 05:37:38] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"130400415458c781a2017c5"}
+[2017-03-14 05:37:38] app.INFO: > GET /api/user/13 [] {"logsessionid":"130400415458c781a2017c5"}
+[2017-03-14 05:37:38] app.INFO: < 200 [] {"logsessionid":"130400415458c781a2017c5"}
+[2017-03-14 05:37:38] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"177558134458c781a2925ab"}
+[2017-03-14 05:37:38] app.INFO: > GET /api/user/13 [] {"logsessionid":"177558134458c781a2925ab"}
+[2017-03-14 05:37:38] app.INFO: < 200 [] {"logsessionid":"177558134458c781a2925ab"}
+[2017-03-14 05:37:39] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"44908929658c781a319c3b"}
+[2017-03-14 05:37:39] app.INFO: > GET /api/user/13 [] {"logsessionid":"44908929658c781a319c3b"}
+[2017-03-14 05:37:39] app.INFO: < 200 [] {"logsessionid":"44908929658c781a319c3b"}
+[2017-03-14 05:37:39] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"122039480858c781a368e07"}
+[2017-03-14 05:37:39] app.INFO: > GET /api/user/13 [] {"logsessionid":"122039480858c781a368e07"}
+[2017-03-14 05:37:39] app.INFO: < 200 [] {"logsessionid":"122039480858c781a368e07"}
+[2017-03-14 05:37:39] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"209430808558c781a3b964c"}
+[2017-03-14 05:37:39] app.INFO: > GET /api/user/13 [] {"logsessionid":"209430808558c781a3b964c"}
+[2017-03-14 05:37:39] app.INFO: < 200 [] {"logsessionid":"209430808558c781a3b964c"}
+[2017-03-14 05:37:40] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"63991135658c781a42341a"}
+[2017-03-14 05:37:40] app.INFO: > GET /api/user/13 [] {"logsessionid":"63991135658c781a42341a"}
+[2017-03-14 05:37:40] app.INFO: < 200 [] {"logsessionid":"63991135658c781a42341a"}
+[2017-03-14 05:37:40] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"164781533258c781a4a758f"}
+[2017-03-14 05:37:40] app.INFO: > GET /api/user/13 [] {"logsessionid":"164781533258c781a4a758f"}
+[2017-03-14 05:37:40] app.INFO: < 200 [] {"logsessionid":"164781533258c781a4a758f"}
+[2017-03-14 05:37:41] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"156117320958c781a502ef4"}
+[2017-03-14 05:37:41] app.INFO: > GET /api/user/13 [] {"logsessionid":"156117320958c781a502ef4"}
+[2017-03-14 05:37:41] app.INFO: < 200 [] {"logsessionid":"156117320958c781a502ef4"}
+[2017-03-14 05:37:41] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"37392264458c781a5575fa"}
+[2017-03-14 05:37:41] app.INFO: > GET /api/user/13 [] {"logsessionid":"37392264458c781a5575fa"}
+[2017-03-14 05:37:41] app.INFO: < 200 [] {"logsessionid":"37392264458c781a5575fa"}
+[2017-03-14 05:37:41] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"68205726658c781a5a44e6"}
+[2017-03-14 05:37:41] app.INFO: > GET /api/user/13 [] {"logsessionid":"68205726658c781a5a44e6"}
+[2017-03-14 05:37:41] app.INFO: < 200 [] {"logsessionid":"68205726658c781a5a44e6"}
+[2017-03-14 05:37:42] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"129993337158c781a5edf3d"}
+[2017-03-14 05:37:42] app.INFO: > GET /api/user/13 [] {"logsessionid":"129993337158c781a5edf3d"}
+[2017-03-14 05:37:42] app.INFO: < 200 [] {"logsessionid":"129993337158c781a5edf3d"}
+[2017-03-14 05:37:42] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"87819993458c781a643a07"}
+[2017-03-14 05:37:42] app.INFO: > GET /api/user/13 [] {"logsessionid":"87819993458c781a643a07"}
+[2017-03-14 05:37:42] app.INFO: < 200 [] {"logsessionid":"87819993458c781a643a07"}
+[2017-03-14 05:37:42] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"8176482758c781a689af6"}
+[2017-03-14 05:37:42] app.INFO: > GET /api/user/13 [] {"logsessionid":"8176482758c781a689af6"}
+[2017-03-14 05:37:42] app.INFO: < 200 [] {"logsessionid":"8176482758c781a689af6"}
+[2017-03-14 05:37:42] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"167535097158c781a6d12dd"}
+[2017-03-14 05:37:42] app.INFO: > GET /api/user/13 [] {"logsessionid":"167535097158c781a6d12dd"}
+[2017-03-14 05:37:42] app.INFO: < 200 [] {"logsessionid":"167535097158c781a6d12dd"}
+[2017-03-14 05:37:43] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"16942917658c781a72c179"}
+[2017-03-14 05:37:43] app.INFO: > GET /api/user/13 [] {"logsessionid":"16942917658c781a72c179"}
+[2017-03-14 05:37:43] app.INFO: < 200 [] {"logsessionid":"16942917658c781a72c179"}
+[2017-03-14 05:37:43] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"35267018158c781a78360a"}
+[2017-03-14 05:37:43] app.INFO: > GET /api/user/13 [] {"logsessionid":"35267018158c781a78360a"}
+[2017-03-14 05:37:43] app.INFO: < 200 [] {"logsessionid":"35267018158c781a78360a"}
+[2017-03-14 05:37:43] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"134539438158c781a7d347e"}
+[2017-03-14 05:37:43] app.INFO: > GET /api/user/13 [] {"logsessionid":"134539438158c781a7d347e"}
+[2017-03-14 05:37:43] app.INFO: < 200 [] {"logsessionid":"134539438158c781a7d347e"}
+[2017-03-14 05:37:44] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"165347775258c781a81c9d2"}
+[2017-03-14 05:37:44] app.INFO: > GET /api/user/13 [] {"logsessionid":"165347775258c781a81c9d2"}
+[2017-03-14 05:37:44] app.INFO: < 200 [] {"logsessionid":"165347775258c781a81c9d2"}
+[2017-03-14 05:37:44] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"178213488558c781a85aea2"}
+[2017-03-14 05:37:44] app.INFO: > GET /api/user/13 [] {"logsessionid":"178213488558c781a85aea2"}
+[2017-03-14 05:37:44] app.INFO: < 200 [] {"logsessionid":"178213488558c781a85aea2"}
+[2017-03-14 05:37:44] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"92391471758c781a8a130c"}
+[2017-03-14 05:37:44] app.INFO: > GET /api/user/13 [] {"logsessionid":"92391471758c781a8a130c"}
+[2017-03-14 05:37:44] app.INFO: < 200 [] {"logsessionid":"92391471758c781a8a130c"}
+[2017-03-14 05:37:44] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"192910306158c781a8de4a4"}
+[2017-03-14 05:37:44] app.INFO: > GET /api/user/13 [] {"logsessionid":"192910306158c781a8de4a4"}
+[2017-03-14 05:37:44] app.INFO: < 200 [] {"logsessionid":"192910306158c781a8de4a4"}
+[2017-03-14 05:37:45] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"64688964158c781a92bb28"}
+[2017-03-14 05:37:45] app.INFO: > GET /api/user/13 [] {"logsessionid":"64688964158c781a92bb28"}
+[2017-03-14 05:37:45] app.INFO: < 200 [] {"logsessionid":"64688964158c781a92bb28"}
+[2017-03-14 05:37:45] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"68051380758c781a97c06f"}
+[2017-03-14 05:37:45] app.INFO: > GET /api/user/13 [] {"logsessionid":"68051380758c781a97c06f"}
+[2017-03-14 05:37:45] app.INFO: < 200 [] {"logsessionid":"68051380758c781a97c06f"}
+[2017-03-14 05:37:45] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"191339873758c781a9e177f"}
+[2017-03-14 05:37:45] app.INFO: > GET /api/user/13 [] {"logsessionid":"191339873758c781a9e177f"}
+[2017-03-14 05:37:45] app.INFO: < 200 [] {"logsessionid":"191339873758c781a9e177f"}
+[2017-03-14 05:37:49] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"134777589958c781ad95a4b"}
+[2017-03-14 05:37:49] app.INFO: > GET /api/user/13 [] {"logsessionid":"134777589958c781ad95a4b"}
+[2017-03-14 05:37:49] app.INFO: < 200 [] {"logsessionid":"134777589958c781ad95a4b"}
+[2017-03-14 05:37:50] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"211223987158c781adec9a8"}
+[2017-03-14 05:37:50] app.INFO: > GET /api/user/13 [] {"logsessionid":"211223987158c781adec9a8"}
+[2017-03-14 05:37:50] app.INFO: < 200 [] {"logsessionid":"211223987158c781adec9a8"}
+[2017-03-14 05:37:50] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"43502658958c781ae46e40"}
+[2017-03-14 05:37:50] app.INFO: > GET /api/user/13 [] {"logsessionid":"43502658958c781ae46e40"}
+[2017-03-14 05:37:50] app.INFO: < 200 [] {"logsessionid":"43502658958c781ae46e40"}
+[2017-03-14 05:37:50] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"172334723658c781ae960d9"}
+[2017-03-14 05:37:50] app.INFO: > GET /api/user/13 [] {"logsessionid":"172334723658c781ae960d9"}
+[2017-03-14 05:37:50] app.INFO: < 200 [] {"logsessionid":"172334723658c781ae960d9"}
+[2017-03-14 05:37:50] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"31520181958c781aed5ffe"}
+[2017-03-14 05:37:50] app.INFO: > GET /api/user/13 [] {"logsessionid":"31520181958c781aed5ffe"}
+[2017-03-14 05:37:50] app.INFO: < 200 [] {"logsessionid":"31520181958c781aed5ffe"}
+[2017-03-14 05:37:51] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"86637695258c781af200e4"}
+[2017-03-14 05:37:51] app.INFO: > GET /api/user/13 [] {"logsessionid":"86637695258c781af200e4"}
+[2017-03-14 05:37:51] app.INFO: < 200 [] {"logsessionid":"86637695258c781af200e4"}
+[2017-03-14 05:37:51] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"117411224558c781af5ceda"}
+[2017-03-14 05:37:51] app.INFO: > GET /api/user/13 [] {"logsessionid":"117411224558c781af5ceda"}
+[2017-03-14 05:37:51] app.INFO: < 200 [] {"logsessionid":"117411224558c781af5ceda"}
+[2017-03-14 05:37:51] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"161920597358c781afb6872"}
+[2017-03-14 05:37:51] app.INFO: > GET /api/user/13 [] {"logsessionid":"161920597358c781afb6872"}
+[2017-03-14 05:37:51] app.INFO: < 200 [] {"logsessionid":"161920597358c781afb6872"}
+[2017-03-14 05:37:52] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"49447464958c781b008cef"}
+[2017-03-14 05:37:52] app.INFO: > GET /api/user/13 [] {"logsessionid":"49447464958c781b008cef"}
+[2017-03-14 05:37:52] app.INFO: < 200 [] {"logsessionid":"49447464958c781b008cef"}
+[2017-03-14 05:37:52] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"162320154258c781b067849"}
+[2017-03-14 05:37:52] app.INFO: > GET /api/user/13 [] {"logsessionid":"162320154258c781b067849"}
+[2017-03-14 05:37:52] app.INFO: < 200 [] {"logsessionid":"162320154258c781b067849"}
+[2017-03-14 05:37:52] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"69211713458c781b0a9c8c"}
+[2017-03-14 05:37:52] app.INFO: > GET /api/user/13 [] {"logsessionid":"69211713458c781b0a9c8c"}
+[2017-03-14 05:37:52] app.INFO: < 200 [] {"logsessionid":"69211713458c781b0a9c8c"}
+[2017-03-14 05:37:53] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"44129908658c781b0e70c7"}
+[2017-03-14 05:37:53] app.INFO: > GET /api/user/13 [] {"logsessionid":"44129908658c781b0e70c7"}
+[2017-03-14 05:37:53] app.INFO: < 200 [] {"logsessionid":"44129908658c781b0e70c7"}
+[2017-03-14 05:37:53] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"11562925058c781b152aff"}
+[2017-03-14 05:37:53] app.INFO: > GET /api/user/13 [] {"logsessionid":"11562925058c781b152aff"}
+[2017-03-14 05:37:53] app.INFO: < 200 [] {"logsessionid":"11562925058c781b152aff"}
+[2017-03-14 05:37:53] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"19244881858c781b19421f"}
+[2017-03-14 05:37:53] app.INFO: > GET /api/user/13 [] {"logsessionid":"19244881858c781b19421f"}
+[2017-03-14 05:37:53] app.INFO: < 200 [] {"logsessionid":"19244881858c781b19421f"}
+[2017-03-14 05:37:54] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"200247229658c781b2047eb"}
+[2017-03-14 05:37:54] app.INFO: > GET /api/user/13 [] {"logsessionid":"200247229658c781b2047eb"}
+[2017-03-14 05:37:54] app.INFO: < 200 [] {"logsessionid":"200247229658c781b2047eb"}
+[2017-03-14 05:37:54] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"48955189458c781b249fe2"}
+[2017-03-14 05:37:54] app.INFO: > GET /api/user/13 [] {"logsessionid":"48955189458c781b249fe2"}
+[2017-03-14 05:37:54] app.INFO: < 200 [] {"logsessionid":"48955189458c781b249fe2"}
+[2017-03-14 05:37:54] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"87450608558c781b29898b"}
+[2017-03-14 05:37:54] app.INFO: > GET /api/user/13 [] {"logsessionid":"87450608558c781b29898b"}
+[2017-03-14 05:37:54] app.INFO: < 200 [] {"logsessionid":"87450608558c781b29898b"}
+[2017-03-14 05:37:55] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"115492201958c781b315ca4"}
+[2017-03-14 05:37:55] app.INFO: > GET /api/user/13 [] {"logsessionid":"115492201958c781b315ca4"}
+[2017-03-14 05:37:55] app.INFO: < 200 [] {"logsessionid":"115492201958c781b315ca4"}
+[2017-03-14 05:37:55] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"136775182858c781b36c62c"}
+[2017-03-14 05:37:55] app.INFO: > GET /api/user/13 [] {"logsessionid":"136775182858c781b36c62c"}
+[2017-03-14 05:37:55] app.INFO: < 200 [] {"logsessionid":"136775182858c781b36c62c"}
+[2017-03-14 05:37:55] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"95627091258c781b3a79a5"}
+[2017-03-14 05:37:55] app.INFO: > GET /api/user/13 [] {"logsessionid":"95627091258c781b3a79a5"}
+[2017-03-14 05:37:55] app.INFO: < 200 [] {"logsessionid":"95627091258c781b3a79a5"}
+[2017-03-14 05:38:01] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"65253646458c781b98f130"}
+[2017-03-14 05:38:01] app.INFO: > GET /api/user/13 [] {"logsessionid":"65253646458c781b98f130"}
+[2017-03-14 05:38:01] app.INFO: < 200 [] {"logsessionid":"65253646458c781b98f130"}
+[2017-03-14 05:38:02] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"206041245858c781b9f13d8"}
+[2017-03-14 05:38:02] app.INFO: > GET /api/user/13 [] {"logsessionid":"206041245858c781b9f13d8"}
+[2017-03-14 05:38:02] app.INFO: < 200 [] {"logsessionid":"206041245858c781b9f13d8"}
+[2017-03-14 05:38:02] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"23410513058c781ba54fcd"}
+[2017-03-14 05:38:02] app.INFO: > GET /api/user/13 [] {"logsessionid":"23410513058c781ba54fcd"}
+[2017-03-14 05:38:02] app.INFO: < 200 [] {"logsessionid":"23410513058c781ba54fcd"}
+[2017-03-14 05:38:02] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"122558121258c781ba9a0ab"}
+[2017-03-14 05:38:02] app.INFO: > GET /api/user/13 [] {"logsessionid":"122558121258c781ba9a0ab"}
+[2017-03-14 05:38:02] app.INFO: < 200 [] {"logsessionid":"122558121258c781ba9a0ab"}
+[2017-03-14 05:38:02] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"22235467558c781badfc78"}
+[2017-03-14 05:38:02] app.INFO: > GET /api/user/13 [] {"logsessionid":"22235467558c781badfc78"}
+[2017-03-14 05:38:02] app.INFO: < 200 [] {"logsessionid":"22235467558c781badfc78"}
+[2017-03-14 05:38:03] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"29867501958c781bb30b0c"}
+[2017-03-14 05:38:03] app.INFO: > GET /api/user/13 [] {"logsessionid":"29867501958c781bb30b0c"}
+[2017-03-14 05:38:03] app.INFO: < 200 [] {"logsessionid":"29867501958c781bb30b0c"}
+[2017-03-14 05:38:03] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"162879272058c781bb9e702"}
+[2017-03-14 05:38:03] app.INFO: > GET /api/user/13 [] {"logsessionid":"162879272058c781bb9e702"}
+[2017-03-14 05:38:03] app.INFO: < 200 [] {"logsessionid":"162879272058c781bb9e702"}
+[2017-03-14 05:38:03] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"101942634458c781bbe49e1"}
+[2017-03-14 05:38:04] app.INFO: > GET /api/user/13 [] {"logsessionid":"101942634458c781bbe49e1"}
+[2017-03-14 05:38:04] app.INFO: < 200 [] {"logsessionid":"101942634458c781bbe49e1"}
+[2017-03-14 05:38:04] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"12404678958c781bc43ea3"}
+[2017-03-14 05:38:04] app.INFO: > GET /api/user/13 [] {"logsessionid":"12404678958c781bc43ea3"}
+[2017-03-14 05:38:04] app.INFO: < 200 [] {"logsessionid":"12404678958c781bc43ea3"}
+[2017-03-14 05:38:21] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"211039147158c781cd88c90"}
+[2017-03-14 05:38:21] app.INFO: > GET /api/user/13 [] {"logsessionid":"211039147158c781cd88c90"}
+[2017-03-14 05:38:21] app.INFO: < 200 [] {"logsessionid":"211039147158c781cd88c90"}
+[2017-03-14 05:38:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"137430543658c781ce49e28"}
+[2017-03-14 05:38:22] app.INFO: > GET /api/user/13 [] {"logsessionid":"137430543658c781ce49e28"}
+[2017-03-14 05:38:22] app.INFO: < 200 [] {"logsessionid":"137430543658c781ce49e28"}
+[2017-03-14 05:38:22] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"114041944058c781ced090d"}
+[2017-03-14 05:38:22] app.INFO: > GET /api/user/13 [] {"logsessionid":"114041944058c781ced090d"}
+[2017-03-14 05:38:22] app.INFO: < 200 [] {"logsessionid":"114041944058c781ced090d"}
+[2017-03-14 05:38:23] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"179574557858c781cf49233"}
+[2017-03-14 05:38:23] app.INFO: > GET /api/user/13 [] {"logsessionid":"179574557858c781cf49233"}
+[2017-03-14 05:38:23] app.INFO: < 200 [] {"logsessionid":"179574557858c781cf49233"}
+[2017-03-14 05:38:23] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"18600738458c781cfb13fa"}
+[2017-03-14 05:38:23] app.INFO: > GET /api/user/13 [] {"logsessionid":"18600738458c781cfb13fa"}
+[2017-03-14 05:38:23] app.INFO: < 200 [] {"logsessionid":"18600738458c781cfb13fa"}
+[2017-03-14 05:38:24] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"149914434758c781d01fdf4"}
+[2017-03-14 05:38:24] app.INFO: > GET /api/user/13 [] {"logsessionid":"149914434758c781d01fdf4"}
+[2017-03-14 05:38:24] app.INFO: < 200 [] {"logsessionid":"149914434758c781d01fdf4"}
+[2017-03-14 05:38:24] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"47955222658c781d085164"}
+[2017-03-14 05:38:24] app.INFO: > GET /api/user/13 [] {"logsessionid":"47955222658c781d085164"}
+[2017-03-14 05:38:24] app.INFO: < 200 [] {"logsessionid":"47955222658c781d085164"}
+[2017-03-14 05:38:25] app.INFO: Matched route "user_get". {"route_parameters":{"_controller":"PROJECT\\Controllers\\RestController::get","id":"13","_route":"user_get"},"request_uri":"http://services.com/api/user/13"} {"logsessionid":"2839672058c781d0f2db9"}
+[2017-03-14 05:38:25] app.INFO: > GET /api/user/13 [] {"logsessionid":"2839672058c781d0f2db9"}
+[2017-03-14 05:38:25] app.INFO: < 200 [] {"logsessionid":"2839672058c781d0f2db9"}

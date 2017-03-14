@@ -1,0 +1,39 @@
+{
+    "name": "project/api",
+    "description": "The project API",
+    "license": "proprietary",
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "~2.5",
+        "monolog/monolog": "~1.22",
+        "jdesrosiers/silex-cors-provider": "0.1.5",
+        "robmorgan/phinx": "~0.8",
+        "marmelab/microrest": "~1.0@dev",
+        "predis/predis": "~1.1",
+        "predis/service-provider": "~0.4",
+        "symfony/twig-bridge": "2.1.*",
+        "twig/twig": "1.*",
+        "twig/extensions": "1.*",
+        "cnam/security-jwt-service-provider":" 1.*",
+        "symfony/validator": "^2.8",
+        "marcojanssen/silex-routing-service-provider" : "~1.5.0",
+        "twilio/sdk": "5.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.6"
+    },
+    "config": {
+        "vendor-dir": "vendor/be"
+    },
+    "autoload": {
+        "classmap": [ "src/" ]
+    },
+    "scripts": {
+        "update-dev-db": [
+            "bash scripts/sql_migrations.sh"
+        ],
+        "deploy": [
+            "bash scripts/deploy.sh"
+        ]
+}
+}
