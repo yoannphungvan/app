@@ -1,0 +1,5 @@
+.vagrant
+composer.phar
+vendor
+logs
+doc
