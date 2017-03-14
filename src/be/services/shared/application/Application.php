@@ -103,6 +103,11 @@ class Application extends SilexApplication
         $this->dependenciesService->addService($serviceName, $serviceNamespace);
     }
 
+    public function getServices()
+    {
+        return $this->dependenciesService->getServices();
+    }
+
     public function getDependenciesService()
     {
         return $this->dependenciesService;

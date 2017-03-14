@@ -31,7 +31,7 @@ class RestController implements RestControllerInterface
         )        = $this->getFiltersList($app->getAllQueryParams());
         $results = $app[$service]->getList($columns, $filters, $order, $groupBy, $page, $perPage);
         
-        return $this->responseFormat($app, $results, $model);
+        return $this->responseFormat($app, $results, $model, true);
     }
 
     /**
@@ -174,7 +174,7 @@ class RestController implements RestControllerInterface
         return $app['request']->get('_route');
     }
 
-    public function responseFormat($app, $data, $model = null)
+    public function responseFormat($app, $data, $model = null, $isList = false)
     {
         if ($data instanceOf \Exception) {
             $response = [
@@ -183,7 +183,7 @@ class RestController implements RestControllerInterface
                 'error' => $data->getMessage()
             ];
         } else {
-            $data = $this->convertResponse($app, $data, $model);
+            $data = $this->convertResponse($app, $data, $model, $isList);
             $response = [
                 'status' => 'ok' ,
                 'code'   => '200',
@@ -193,12 +193,19 @@ class RestController implements RestControllerInterface
         return $app->json($response);
     }
 
-    public function convertResponse($app, $data, $model = null)
-    {
-        if (null !== $model || $app['mapper']->isMappingExists($model)) {
+    public function convertResponse($app, $data, $model = null, $isList = false)
+    { 
+        if (null === $model || (!$app['Mapper']->isMappingExists($model))) {
             return $data;
         }
 
-        return $app['mapper']->map($model, $data, Mapper::API_RESPONSE_ID);
+        if ($isList) {
+            foreach ($data as &$item) {
+                $item = $app['Mapper']->map($model, $app['Utils']->arrayToObject($item), Mapper::API_RESPONSE_ID);
+            }
+            return $data;
+        }
+
+        return $app['Mapper']->map($model, $app['Utils']->arrayToObject($data), Mapper::API_RESPONSE_ID);
     }
 }

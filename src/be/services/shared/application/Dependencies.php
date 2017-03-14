@@ -37,6 +37,11 @@ class Dependencies
         $this->availableServices[$serviceName] = $this->app[$id];   
     }
 
+    public function getServices()
+    {
+        return array_keys($this->availableServices);
+    }
+
     protected function serviceExists($serviceName)
     {
         return isset($this->availableServices[$serviceName]);
@@ -77,7 +82,7 @@ class Dependencies
 
     private function getServiceId($serviceName) 
     {
-        return strtolower($serviceName);
+        return $serviceName;
     }
 
     private function getCurrentClassName($currentClass) {

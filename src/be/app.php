@@ -45,6 +45,7 @@ $app->setMiddleware($app->getPath('middlewares') . '/response.php');
 $app->setRoutes($app->getPath('routes') . '/default.php');
 
 $app->setExternalServices($app->getPath('services') . '/common.php');
+$app->setService('Utils', 'PROJECT\Services\Shared\Helpers\Utils');
 
 // Bundles
 $app->setBundle('user', $app->getPath('bundles') . '/user', true); 
